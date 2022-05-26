@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-anydpi-v26\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\powkh\\Documents\\1111\\android\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

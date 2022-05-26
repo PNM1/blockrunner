@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:4:5-67
+11-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:4:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:5:5-22:19
+21        android:allowBackup="true"
+21-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:6:9-35
+22        android:appCategory="game"
+22-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.2.0] C:\Users\powkh\.gradle\caches\transforms-3\36ac735085e9eb84a783e842ad2bc33e\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@drawable/ic_launcher"
+26-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:7:9-45
+27        android:isGame="true"
+27-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:8:9-30
+28        android:label="@string/app_name"
+28-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:10:9-41
+29        android:testOnly="true"
+30        android:theme="@style/GdxTheme" >
+30-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:11:9-40
+31        <activity
+31-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:12:9-21:20
+32            android:name="com.game.AndroidLauncher"
+32-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:13:13-52
+33            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
+33-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:16:13-107
+34            android:label="@string/app_name"
+34-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:14:13-45
+35            android:screenOrientation="landscape" >
+35-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:15:13-50
+36            <intent-filter>
+36-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:17:13-20:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:18:17-69
+37-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:19:17-77
+39-->C:\Users\powkh\Documents\1111\android\AndroidManifest.xml:19:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.5] C:\Users\powkh\.gradle\caches\transforms-3\20a47cf35c2662b1683738addb93989a\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+51                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+51-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\74f33b50c0ecded5a48ab6749221d258\transformed\play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\powkh\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+54                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+54-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\powkh\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\powkh\.gradle\caches\transforms-3\b49c191d82ed477e58550a741860a810\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+56        </service>
+57
+58        <provider
+58-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+59            android:name="com.google.firebase.provider.FirebaseInitProvider"
+59-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+60            android:authorities="com.game.firebaseinitprovider"
+60-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:20.1.1] C:\Users\powkh\.gradle\caches\transforms-3\f0998fa6b3f5db9efecde11f9fdff6b5\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+64
+65        <receiver
+65-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+66-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+69        </receiver>
+70
+71        <service
+71-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+72            android:name="com.google.android.gms.measurement.AppMeasurementService"
+72-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+73            android:enabled="true"
+73-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+74            android:exported="false" />
+74-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+75        <service
+75-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+76            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+76-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+77            android:enabled="true"
+77-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\powkh\.gradle\caches\transforms-3\99e6b3f819e27bc513953fede8a42187\transformed\play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\powkh\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\powkh\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\powkh\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\powkh\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\powkh\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\powkh\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\powkh\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+89    </application>
+90
+91</manifest>

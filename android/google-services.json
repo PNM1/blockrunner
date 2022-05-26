@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715003531238",
+    "project_id": "rrunc-aeced",
+    "storage_bucket": "rrunc-aeced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715003531238:android:ec255dbec60ef91c841027",
+        "android_client_info": {
+          "package_name": "com.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715003531238-upe9qp5bgvm2v2knelk0njdkop8l5arf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLaFjYEUr7U_9duyEFePSpysu_f8lDdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715003531238-upe9qp5bgvm2v2knelk0njdkop8l5arf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
