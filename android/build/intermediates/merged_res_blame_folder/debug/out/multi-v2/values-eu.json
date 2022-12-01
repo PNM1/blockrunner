@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "outputFile": "C:\\Users\\aill1\\Desktop\\blockrunner-main\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\powkh\\.gradle\\caches\\transforms-3\\d90cdb58c1d76d5627b1a46b3fa36cf9\\transformed\\play-services-basement-18.0.0\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\aill1\\.gradle\\caches\\transforms-3\\36ac735085e9eb84a783e842ad2bc33e\\transformed\\core-1.2.0\\res\\values-eu\\values-eu.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "138",
-                        "endOffsets": "333"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1073",
-                        "endColumns": "142",
-                        "endOffsets": "1211"
+                        "startOffsets": "2330",
+                        "endColumns": "100",
+                        "endOffsets": "2426"
                     }
                 },
                 {
-                    "source": "C:\\Users\\powkh\\.gradle\\caches\\transforms-3\\d98319f7b7726cf12a32e24850696daa\\transformed\\play-services-base-18.0.1\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\aill1\\.gradle\\caches\\transforms-3\\d98319f7b7726cf12a32e24850696daa\\transformed\\jetified-play-services-base-18.0.1\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\powkh\\.gradle\\caches\\transforms-3\\36ac735085e9eb84a783e842ad2bc33e\\transformed\\core-1.2.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\aill1\\.gradle\\caches\\transforms-3\\d90cdb58c1d76d5627b1a46b3fa36cf9\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-eu\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "138",
+                        "endOffsets": "333"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2330",
-                        "endColumns": "100",
-                        "endOffsets": "2426"
+                        "startOffsets": "1073",
+                        "endColumns": "142",
+                        "endOffsets": "1211"
                     }
                 }
             ]

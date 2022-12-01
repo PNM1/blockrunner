@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\powkh\\Documents\\1111\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\aill1\\Desktop\\blockrunner-main\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\powkh\\.gradle\\caches\\transforms-3\\36ac735085e9eb84a783e842ad2bc33e\\transformed\\core-1.2.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\aill1\\.gradle\\caches\\transforms-3\\36ac735085e9eb84a783e842ad2bc33e\\transformed\\core-1.2.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

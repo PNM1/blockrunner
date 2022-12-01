@@ -136,8 +136,6 @@ public class WinMenu extends GameState{
                 Game.res.getSound("winlevel").play();
                 gsm.setState(GameStateManager.MENU);
                 Play.winlvl = 0;
-                game.create();
-
             }
             if(Play.level == 2){
                 Game.res.getSound("winlevel").play();
@@ -158,12 +156,82 @@ public class WinMenu extends GameState{
                 Game.res.getSound("winlevel").play();
                 gsm.setState(GameStateManager.MENU);
                 Play.winlvl = 0;
-
-                game.create();
-
-
             }
-
+            if(Play.level == 6){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 7){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 8){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 9){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 10;
+            }
+            if(Play.level == 10){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 11){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 12){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 13){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 14){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 15){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 16){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 17){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 18){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 19){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
+            if(Play.level == 20){
+                Game.res.getSound("winlevel").play();
+                gsm.setState(GameStateManager.MENU);
+                Play.winlvl = 0;
+            }
         }
 
     }

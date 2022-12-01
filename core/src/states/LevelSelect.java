@@ -16,8 +16,6 @@ public class LevelSelect extends GameState {
 
 	DataHolderClass dataHolderClass;
 
-
-
 	private Buttons[][] buttons;
 
 	private BackButton backButton;
@@ -27,7 +25,6 @@ public class LevelSelect extends GameState {
 		
 		super(gsm);
 
-		
 		reg = new TextureRegion(Game.res.getTexture("bgs"), 0, 0, 320, 240);
 		
 		TextureRegion buttonReg = new TextureRegion(Game.res.getTexture("hud"), 0, 0, 32, 32);
@@ -38,6 +35,7 @@ public class LevelSelect extends GameState {
 				buttons[row][col].setText(row * buttons[0].length + col + 1 + "");
 			}
 		}
+
 		Texture tex = Game.res.getTexture("back");
 		backButton = new BackButton(new TextureRegion(tex), 160, 25, cam);
 		
@@ -55,6 +53,11 @@ public class LevelSelect extends GameState {
 	public void update(float dt) {
 		
 		handleInput();
+
+		if(backButton.isClicked()){
+			Game.res.getSound("crystal").play();
+			gsm.setState(GameStateManager.MENU);
+		}
 		
 		for(int row = 0; row < buttons.length; row++) {
 			for(int col = 0; col < buttons[0].length; col++) {

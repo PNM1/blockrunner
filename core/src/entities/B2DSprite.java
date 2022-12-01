@@ -8,9 +8,6 @@ import com.badlogic.gdx.physics.box2d.Body;
 import handlers.Animation;
 import handlers.B2DVars;
 
-/**
- * Attaches animated sprites to box2d bodies
- */
 public class B2DSprite {
 	
 	protected Body body;

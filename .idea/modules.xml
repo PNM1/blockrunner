@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1111.iml" filepath="$PROJECT_DIR$/.idea/modules/1111.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/1111.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/1111.android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/1111.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/1111.core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/1111.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/1111.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blockrunner-main.iml" filepath="$PROJECT_DIR$/.idea/modules/blockrunner-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/android/blockrunner-main.android.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/blockrunner-main.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/blockrunner-main.desktop.test.iml" />
     </modules>
   </component>
 </project>
